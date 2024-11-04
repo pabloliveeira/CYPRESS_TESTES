@@ -10,7 +10,7 @@ describe('Testar Agenda de contatos', () => {
         cy.get('[type="email"]').type('pablo@teste.com')
         cy.get('[type="tel"]').type('(37) 99999-9999')
         cy.get('.adicionar').click()
-        cy.get('[type="text"]').type('Luana Antonelly')
+        cy.get('[type="text"]').type('Luana Torquato')
         cy.get('[type="email"]').type('luana@teste.com')
         cy.get('[type="tel"]').type('(00) 111111-9999')
         cy.get('.adicionar').click()
